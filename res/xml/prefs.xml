@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
 	<PreferenceCategory android:key="setiLibrary" android:title="LIBRARY SETTINGS" android:summary="">
-		<sage.pref.FolderPref android:key="syncfolder1" android:title="Sync Folder 1" android:defaultValue=""/>
-		<sage.pref.FolderPref android:key="syncfolder2" android:title="Sync Folder 2" android:defaultValue=""/>
+		<sage.pref.FolderPref android:key="syncfolder1" android:title="@string/Sync_Folder_1" android:defaultValue=""/>
+		<sage.pref.FolderPref android:key="syncfolder2" android:title="@string/Sync_Folder_2" android:defaultValue=""/>
 	    
 		 <ListPreference android:key="libraryFilter"  android:title="Library Filter" android:defaultValue="0"
            android:summary="Set the default of how the library should be filtered on launch."
