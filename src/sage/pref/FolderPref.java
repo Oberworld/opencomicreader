@@ -43,9 +43,9 @@ public class FolderPref extends DialogPreference implements DialogInterface.OnCl
 	@Override
 	protected void onPrepareDialogBuilder(AlertDialog.Builder builder) {
 		super.onPrepareDialogBuilder(builder);  
-		builder.setPositiveButton("Save",this);
-		builder.setNegativeButton("Cancel",this);
-		builder.setNeutralButton("Clear",this);
+		builder.setPositiveButton(R.string.str_save,this);
+		builder.setNegativeButton(R.string.str_cancel,this);
+		builder.setNeutralButton(R.string.str_clear,this);
 	}//func
 
 	@Override
