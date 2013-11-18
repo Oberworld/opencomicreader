@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
 	<PreferenceCategory android:key="setiLibrary" android:title="LIBRARY SETTINGS" android:summary="">
-		<sage.pref.FolderPref android:key="syncfolder1" android:title="Sync Folder 1" android:defaultValue=""/>
-		<sage.pref.FolderPref android:key="syncfolder2" android:title="Sync Folder 2" android:defaultValue=""/>
+		<sage.pref.FolderPref android:key="syncfolder1" android:title="@string/sync_folder_1" android:defaultValue=""/>
+		<sage.pref.FolderPref android:key="syncfolder2" android:title="@string/sync_folder_2" android:defaultValue=""/>
 	    
 		 <ListPreference android:key="libraryFilter"  android:title="Library Filter" android:defaultValue="0"
            android:summary="Set the default of how the library should be filtered on launch."
@@ -19,7 +19,7 @@
 	</PreferenceCategory>
 	
 	<PreferenceCategory android:key="setiViewing" android:title="VIEWING SETTINGS" android:summary="">
-	    <ListPreference android:key="scaleMode"  android:title="Scale Mode" android:defaultValue="1"
+	    <ListPreference android:key="scaleMode"  android:title="@string/scale_mode" android:defaultValue="1"
            android:summary="Set how the image should scale depending on the screen."
            android:entries="@array/scaleMode" android:entryValues="@array/scaleMode_v"/>
 	    
